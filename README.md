@@ -1,1 +1,1 @@
-# simple-note
+# Simple Note

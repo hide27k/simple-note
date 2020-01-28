@@ -1,0 +1,17 @@
+{
+  "extends": ["tslint:latest", "tslint-config-airbnb", "tslint-config-prettier"],
+  "rules": {
+    "array-type": [true, "array"],
+    "interface-name": [true, "never-prefix"],
+    "no-console": false,
+    "no-else-after-return": false,
+    "no-submodule-imports": false,
+    "no-var-requires": false,
+    "object-literal-sort-keys": false,
+    "object-shorthand-properties-first": false,
+    "variable-name": [true, "ban-keywords", "check-format", "allow-pascal-case"]
+  },
+  "linterOptions": {
+    "exclude": ["node_modules/**/*.ts"]
+  }
+}
