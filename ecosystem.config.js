@@ -16,10 +16,10 @@ module.exports = {
   deploy: {
     production: {
       user: 'deploy',
-      host: [process.env.HOST],
+      host: '212.83.163.1',
       ref: 'origin/master',
       repo: 'https://github.com/h1de27/simple-note.git',
-      path: '/var/www/simple-note',
+      path: '/var/www/proto-note',
       ssh_options: ['ForwardAgent=yes', 'StrictHostKeyChecking=no'],
       'post-deploy': 'docker-compose build && bin/yarn setup && docker-compose restart'
     }
