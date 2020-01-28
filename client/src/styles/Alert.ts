@@ -1,10 +1,10 @@
 import { createStyles, Theme } from '@material-ui/core'
-import { amber, green } from '@material-ui/core/colors'
+import { amber, purple } from '@material-ui/core/colors'
 
 export const styles = (theme: Theme) =>
     createStyles({
         success: {
-            backgroundColor: green[600]
+            backgroundColor: purple[600]
         },
         error: {
             backgroundColor: theme.palette.error.dark

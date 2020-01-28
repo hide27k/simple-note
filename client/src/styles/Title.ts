@@ -19,17 +19,17 @@ export const styles = (theme: Theme) =>
         typography: {
             color: theme.palette.common.black
         },
-        green: {
-            color: theme.palette.primary.main,
+        purple: {
+            color: '#4b2e83',
             fontWeight: 500
         },
         link: {
             color: 'inherit',
             textDecoration: 'none'
         },
-        greenButton: {
+        purpleButton: {
             width: 88,
-            backgroundColor: theme.palette.primary.main,
+            backgroundColor: '#4b2e83',
             color: theme.palette.common.white,
             textTransform: 'none',
             marginLeft: 2,
@@ -40,6 +40,11 @@ export const styles = (theme: Theme) =>
             marginLeft: 'auto',
             marginRight: 'auto',
             textAlign: 'center'
+        },
+        logo: {
+            margin: 'center',
+            textAlign: 'center'
+
         }
     })
 

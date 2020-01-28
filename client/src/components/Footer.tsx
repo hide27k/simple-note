@@ -7,7 +7,7 @@ import { styles, Styles } from '../styles/Footer'
 interface Props extends WithStyles<Styles> { }
 
 const Footer: React.FC<Props> = (props: Props) => (
-    <footer className={props.classes.footer}>Copyright © 2019 Hideyuki Komaki All Rights Reserved.</footer>
+    <footer className={props.classes.footer}> Hideyuki, Seonjun, Patrick.</footer>
 )
 
 export default withStyles(styles)(Footer)
