@@ -1,7 +1,6 @@
 import * as express from 'express'
 import 'express-session'
 
-import { checkReport } from '../../admin'
 import { Note } from '../../model'
 import { NoteCreateQuery, NoteCreateResult, NoteListResult, NoteShowResult } from '../../types'
 import { clone, failure, success, uuid } from '../../utils'
@@ -31,8 +30,8 @@ router.post('/create', async (req, res) => {
         markdown: params.markdown,
         body: params.body
     })
-        .then((note) => {
-            checkReport(note.uuid).catch((e) => console.log(e))
+        .then(() => {
+            // checkReport(note.uuid).catch((e) => console.log(e))
             const result: NoteCreateResult = success(null)
             res.json(result)
         })
