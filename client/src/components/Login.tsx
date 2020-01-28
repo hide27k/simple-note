@@ -12,7 +12,6 @@ import {
 } from '@material-ui/core'
 import { withStyles, WithStyles } from '@material-ui/core/styles'
 import { LockOutlined as LockIcon } from '@material-ui/icons'
-
 import { Actions } from '../actions'
 import { State as AppState } from '../store'
 import { styles, Styles } from '../styles/Login'

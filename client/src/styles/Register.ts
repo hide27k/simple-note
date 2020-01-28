@@ -16,7 +16,7 @@ export const styles = (theme: Theme) =>
         },
         avatar: {
             margin: theme.spacing(1),
-            backgroundColor: theme.palette.secondary.main
+            backgroundColor: '#4b2e83'
         },
         form: {
             width: '85%',

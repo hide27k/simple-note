@@ -29,9 +29,9 @@ export const styles = (theme: Theme) =>
             marginLeft: 2,
             marginRight: 2
         },
-        greenButton: {
+        purpleButton: {
             width: 88,
-            backgroundColor: theme.palette.primary.main,
+            backgroundColor: '#4b2e83',
             color: theme.palette.common.white,
             textTransform: 'none',
             marginLeft: 2,

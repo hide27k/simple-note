@@ -34,14 +34,14 @@ const Header: React.FC<Props> = (props: Props) => {
                 </Link>
                 <Typography variant="h6" className={props.classes.typography}>
                     <Link to="/" className={props.classes.link}>
-                        Hack MD
+                        Husky Note
                     </Link>
                 </Typography>
                 {props.isInitialized ? (
                     props.isLoggedIn ? (
                         <React.Fragment>
                             <Link to="/notes/create" className={props.classes.link}>
-                                <Button className={props.classes.greenButton}>New Note</Button>
+                                <Button className={props.classes.purpleButton}>New Note</Button>
                             </Link>
                             <Button className={props.classes.whiteButton} onClick={onClickLogout}>
                                 Logout
@@ -50,7 +50,7 @@ const Header: React.FC<Props> = (props: Props) => {
                     ) : (
                             <React.Fragment>
                                 <Link to="/register" className={props.classes.link}>
-                                    <Button className={props.classes.greenButton}>Sign up</Button>
+                                    <Button className={props.classes.purpleButton}>Sign up</Button>
                                 </Link>
                                 <Link to="/login" className={props.classes.link}>
                                     <Button className={props.classes.whiteButton}>Login</Button>

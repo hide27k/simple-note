@@ -12,7 +12,6 @@ import { actions, Actions } from './actions'
 import Footer from './components/Footer'
 import Loading from './components/Loading'
 import Title from './components/Title'
-import Debug from './components/Debug'
 import Alert from './containers/Alert'
 import Header from './containers/Header'
 import Home from './containers/Home'
@@ -49,7 +48,6 @@ class App extends React.Component<Props> {
                                 <Route path="/notes" exact={true} component={NoteList} />
                                 <Route path="/notes/create" exact={true} component={NoteCreate} />
                                 <Route path="/notes/:uuid" exact={true} component={NoteShow} />
-                                <Route path="/debug" exact={true} component={Debug} />
                                 <Route component={Title} />
                             </Switch>
                         ) : (

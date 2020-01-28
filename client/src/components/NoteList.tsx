@@ -45,7 +45,7 @@ class NoteList extends React.Component<Props, State> {
         ) : this.state.notes && this.state.notes.length > 0 ? (
             <div className={this.props.classes.container}>
                 <Typography component="h2" variant="h3" className={this.props.classes.typography}>
-                    My Workspace
+                    My Notes
                 </Typography>
                 <List className={this.props.classes.list}>
                     {this.state.notes.map((note, index) => (
