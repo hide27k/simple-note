@@ -23,7 +23,7 @@
     "connected-react-router": "^6.5.2",
     "css-loader": "^3.2.0",
     "github-markdown-css": "^3.0.1",
-    "highlight.js": "^9.16.2",
+    "highlight.js": "^10.4.1",
     "history": "^4.10.1",
     "marked": "^0.7.0",
     "react": "^16.12.0",
